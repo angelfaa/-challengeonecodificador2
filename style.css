@@ -1,0 +1,157 @@
+*{  
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+html,body {
+    padding: auto;
+    margin: 0;
+    background-color: #e5e5e5;
+}
+.section1 {
+    background-color: #e5e5e5;
+}
+.ocultar{
+    display:none;
+    transition: all 0.5s ease-out;
+}
+.logo{
+    background-color: #e5e5e5;
+    padding: 10px;
+    
+}
+.textarea{
+    background-color: #e5e5e5;
+    border: none; 
+    width: 95%;
+    color: #0A3871;    
+    font-size:32px;
+    margin: 0 2.5%;
+    height:200px;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+.botones{
+    margin-top: 30px;
+}
+.botones p{
+    margin-left: 2.5%;
+    font-size: 1.7em;
+}
+.bot{
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin: 0 2.5%;
+}
+.boton1{
+    width: 95%;
+    background-color:#0A3871;
+    color: #fff;
+    margin-bottom: 10px;
+}.boton2{
+    width: 95%;
+    border:1px solid #0A3871;
+    color: #0A3871;
+    margin-bottom: 10px;
+}.boton3{
+    width: 95%;
+    border:1px solid #0A3871;
+    color: #0A3871;
+    margin-bottom: 10px;
+}
+.muñeco{
+    display: none;
+}
+.segunda{
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 0 auto;    
+    width:95%;
+    height: 200px;
+}
+.title{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.parrafo{
+    text-align: center;
+    width: 200px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.title2{
+    border:none;
+    width: 95%;
+    color: #0A3871;    
+    font-size:32px;
+    margin: 10px 2.5%;
+    border-radius: 10px;
+    height: 120px;
+    outline: none;
+    resize: none;
+}
+@media screen and (min-width: 500px) {
+    .textarea{
+        margin-top: 20px;
+        height: 300px;
+    }
+    .botones{
+        margin-top: 150px;
+    }
+    .botones1{
+        display:flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .botones p{
+        display: block;
+    }
+    .boton1{
+        width: 300px;
+        height:67px;
+    }
+    .boton2{        
+        width: 300px;
+        height:67px;
+    }
+    .segunda{
+        height:390px;
+    }
+    .boton3{
+        height:67px;
+    }
+    .title2{
+        height: 290px;
+    }
+    
+}
+@media screen and (min-width:850px){
+    .section1{
+        display:flex;
+    }
+    .primera{
+        width: 45%;
+        margin-left: 20%;
+    }
+    .muñeco{
+        display:block;
+        width:300px;
+        margin:40px auto 0;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .segunda{
+        width: 30%;
+        height:520px;
+        margin:0;
+        margin-left: 5%;
+    }
+    .botones{
+        margin-top:5px;
+    }
+    .title2{
+        margin-bottom: 80px;
+    }
+}

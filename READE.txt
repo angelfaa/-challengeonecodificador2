@@ -1,0 +1,14 @@
+-Es una pagina que encripta las palabra y la desencripta 
+-El encriptado trata de cambiar vocales por combinaciones de letra y conconante
+ 	- la a se sutituye por ai
+        - la e se sutituye por enter
+        - la i se sutituye por imes
+	- la o se sutituye por ober
+	- la u se sutituye por ufat
+-It is a page that encrypts the word and decrypts it
+-The encryption tries to change vowels by combination of letter and consonant
+ 	- the a is replaced by ai
+        - the e is replaced by enter
+        - the i is replaced by imes
+	- the o is replaced by ober
+	- the u is replaced by ufat
