@@ -1,7 +1,8 @@
 function encriptado(){    
     let j=0,may="áéíóú",texto="",textoSc=document.getElementById("texto").value;
+    if(textoSc.replace(/ /g,'')==""){j=2;}
     for(let i=0;i<textoSc.length;i++){
-        if(textoSc[i] == textoSc[i].toUpperCase()||textoSc[i]=="´"){
+        if((textoSc[i] == textoSc[i].toUpperCase()||textoSc[i]=="´")&&textoSc[i]!=" "){
             j=1;
         }
         for(l=0;l<may.length;l++){
@@ -45,9 +46,9 @@ function encriptado(){
             document.getElementById("copiar").className += "botones2";    
         }
     }
-    else{
-        alert("No Use Mayuscula o acentos")
-    }
+    else if(J==1){
+        alert("No Use Mayusculaasdasd o acentos")
+    }else if(j==2){alert("Campo invalido")}
 }
 function description(){     
     if(document.getElementById("parrafo").innerHTML==1){
